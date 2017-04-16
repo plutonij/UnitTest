@@ -21,4 +21,6 @@ void TurnLedOff(uint16_t LED);
 
 void TurnAllOn();
 
+const char * RuntimeErrorStub_GetLastError();
+int RuntimeErrorStub_GetLastParameter();
 // TODO: reference additional headers your program requires here
